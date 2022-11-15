@@ -1,0 +1,186 @@
+@font-face {
+  font-family: "Slackey-Regular";
+  src: url("./fonts/Slackey-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins-Black.ttf") format("truetype"),
+    url("./fonts/Poppins-BlackItalic.ttf") format("truetype")
+      url("./fonts/Poppins-Bold.ttf") format("truetype")
+      url("./fonts/Poppins-BoldItalic.ttf") format("truetype")
+      url("./fonts/Poppins-ExtraBold.ttf") format("truetype")
+      url("./fonts/Poppins-ExtraBoldItalic.ttf") format("truetype")
+      url("./fonts/Poppins-ExtraLight.ttf") format("truetype")
+      url("./fonts/Poppins-ExtraLightItalic.ttf") format("truetype")
+      url("./fonts/Poppins-Italic.ttf") format("truetype")
+      url("./fonts/Poppins-Light.ttf") format("truetype")
+      url("./fonts/Poppins-LightItalic.ttf") format("truetype")
+      url("./fonts/Poppins-Medium.ttf") format("truetype")
+      url("./fonts/Poppins-MediumItalic.ttf") format("truetype")
+      url("./fonts/Poppins-Regular.ttf") format("truetype")
+      url("./fonts/Poppins-SemiBold.ttf") format("truetype")
+      url("./fonts/Poppins-SemiBoldItalic.ttf") format("truetype")
+      url("./fonts/Poppins-Thin.ttf") format("truetype")
+      url("./fonts/Poppins-ThinItalic.ttf") format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Slackey-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: black;
+  background: #fff;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.nav-bar {
+  color: black;
+  background: #fff;
+  height: 60px;
+}
+
+.nav-bar .logo {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  color: #666;
+  text-decoration: underline;
+}
+
+.nav-bar a {
+  color: #000958;
+  text-decoration: none;
+  font-family: "Poppins-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.nav-bar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-bar button {
+    width: 117px;
+    height: 50px;
+    border-color: #000958;
+    border-radius: 5px;
+    font: "Poppins-Regular";
+    font-weight: bold;
+    color: #000958;
+    background: #fff;
+}
+
+.nav-bar button:hover {
+    color: #666;
+}
+
+.nav-bar ul {
+  display: flex;
+}
+
+.nav-bar li {
+  margin-left: 20px;
+}
+
+.header {
+  background: #fff;
+  min-width: 400px;
+  color: black;
+}
+
+.header-section h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #000958;
+}
+
+.header-section p {
+  font-family: "Poppins-Regular";
+  font-size: 15px;
+  font-weight: 100;
+  margin-top: 20px;
+  line-height: 1.2;
+  color: #333;
+}
+
+.header-section .info {
+  margin-top: 13px;
+  margin-left: 8px;
+  align-self: flex-start;
+}
+
+.header-section .cat {
+  box-sizing: border-box;
+  width: 744px;
+  height: 599.7px;
+  left: 697px;
+  top: 1px;
+  border: 20px solid #fff;
+  border-radius: 29px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.header-section .dog {
+  position: absolute;
+  width: 310px;
+  height: 263px;
+  left: 474px;
+  top: 450px;
+  border-radius: 30px;
+  border: 10px solid #fff;
+}
+
+.header-section .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto 0;
+  padding: 5px;
+}
+
+.header-section .contact {
+  background: #ff5b2e;
+  font-family: "Poppins-Regular";
+  font-weight: bold;
+  margin-top: 20px;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  width: 142px;
+  height: 50px;
+}
+
+.header-section .contact:hover {
+    background: #e64a19;
+}
